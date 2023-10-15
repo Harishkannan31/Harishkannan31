@@ -1,0 +1,46 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: url(MacBook-Pro.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-transform: uppercase;
+}
+h1 strong{
+    font-size: 3rem;
+    color: aliceblue;
+}
+.btn-xl{
+    padding: 1rem 2rem;
+}
+.btn{
+    font-weight: 700 !important;
+    border-radius: 300px !important;
+    text-transform: uppercase;
+}
+.btn-primary{
+    background-color: rgb(198, 0, 198) !important;
+    border-color:  rgb(198, 0, 198) !important;
+    transition: ease-in-out;
+}
+.btn-primary:hover{
+
+    background-color: purple !important;
+    border-color: rgb(59, 0, 59) !important;
+    border-width: 3px;
+    color: black !important;
+
+}
+
+hr{
+    margin: 2rem !important;
+    border-width: 5px !important;
+    border-color: rgb(254, 131, 254) !important;
+    max-width: 65px !important;
+}
+.buffer{
+    height:75px;
+}
